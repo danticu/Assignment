@@ -1,0 +1,215 @@
+Question 1-
+class rectangle {
+    public static void main(String[] args) {
+        int l=5;
+        int b=7;
+        int area= l*b;
+        int p= 2*(l+b);
+        System.out.println("the area of rectangle is:"+area);
+        System.out.println("the perimeter of rectangle is:"+p);
+        
+    }
+}
+
+Question 2-
+class triangle {
+    public static void main(String[] args) {
+        int s1=2;
+        int s2=3;
+        int s3=5;
+        int p= s1+s2+s3;
+       
+        System.out.println("the perimeter of triangle is:"+p);
+        
+    }
+}
+
+Question 3-
+class equal {
+public static void main(String[] args)  {
+System.out.println(23==45);
+}
+}
+
+Question 4-
+class power {
+  public static void main(String[] args) {
+
+    int base = 7, exponent = 5;
+    double result = Math.pow(base, exponent);
+
+    System.out.println("Answer = " + result);
+  }
+  
+  Question 5-
+  class robert{
+public static void main(String[] args) {
+    float p=0;
+int sub1= 78;
+int sub2=45;
+int sub3=62;
+int sum= sub1+sub2+sub3;
+p=(sum * 100)/ 300;
+System.out.println("total of marks are:" +sum);
+System.out.println("percentage of marks are:" +p);
+}}
+
+Question 6-
+public class Convert {
+
+	public static void main(String[] args) {
+		float Fahrenheit, Celsius;
+		Fahrenheit = 43;
+		Celsius = ((Fahrenheit-32)*5)/9;
+		System.out.println("Temperature in celsius is: "+Celsius);
+		}
+	}
+  
+  Question 7-
+  public class Newnumber {
+
+	public static void main(String[] args) {
+		int n=2345, one, two, three, four,last;
+		 one = (n / 1000);
+		 n = (n % 1000) + 2;
+		 two = (n / 100) + 2;
+		 n = (n % 100) + 2;
+		 three = (n / 10) + 2;
+		 n = (n % 10) + 2; 
+		 four = (n / 1) + 2;
+		 n = (n % 1) + 2; 
+		last = (one * 1000) + (two * 100) + (three * 10) + four;
+		System.out.println("final" + last);
+	}
+
+}
+
+Question 8-
+import java.util.Scanner;
+
+public class Rectangle {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enetr the length");
+		int x=sc.nextInt();
+		System.out.println("enetr the breadth");
+		int y=sc.nextInt();
+int perimeter=x+y;
+System.out.println("perimeter is" + perimeter);
+int area=x*y;
+System.out.println("area is"  + area);	
+
+}
+
+Question 9-
+public class Reverse {
+
+	public static void main(String[] args) {
+		 int num = 123, reversed = 0;
+
+		    for(;num != 0; num /= 10) {
+		      int digit = num % 10;
+		      reversed = reversed * 10 + digit;
+		    }
+
+		    System.out.println("Reversed Number: " + reversed);
+	}
+
+}
+ 
+Question 10-
+public class Rittle {
+
+	public static void main(String[] args) {
+		System.out.println((((8+2345)/3)%5)*5);
+
+	}
+
+}
+
+Question 11-
+public class Xyz {
+
+	public static void main(String[] args) {
+	int a=55;
+	int b=75;
+
+		System.out.println(a<50 && a<b);
+
+	}
+
+}
+
+Question 12-
+import java.util.Scanner;
+
+public class Triangle {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enetr the length");
+		int x=sc.nextInt();
+		System.out.println("enetr the breadth");
+		int y=sc.nextInt();
+		System.out.println("enetr the height");
+		int z=sc.nextInt();
+int perimeter=x+y+z;
+System.out.println("perimeter is" + perimeter);
+	}
+
+}
+
+question 13-
+import java.util.Scanner;
+
+public class Swap {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int x=sc.nextInt();
+		int y=sc.nextInt();
+		int c=0;
+		c=x;
+		x=y;
+		y=c;
+		System.out.println("x ="+ x );
+		System.out.println("y = " + y);
+
+	}
+
+}
+
+Question 14-
+
+public class Sdfg {
+
+	public static void main(String[] args) {
+		int n, first, second, third, forth, fifth, sum;
+		n = 23462;
+	first = n/10000; 
+		n = n%10000;
+		second = n/1000;
+		n = n%1000;
+		third = n/100;
+	  n = n%100;
+		forth = n/10;
+		fifth = n%10;
+		sum = first + forth; 
+		System.out.println("sum:"+sum);
+
+	}
+
+}
+
+
+
+
+
+
+
+  
+
+  
+}
+
